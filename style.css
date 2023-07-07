@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    border: solid;  
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+
+  }
+  .profile{
+    border: solid;
+    border-color: aqua;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2px;
+    padding: 12px;
+    float: right;
+
+  }
+  .profile cart{
+    padding: 20px;
+    align-self: center;
+  }
+.avatar{
+    height: auto;
+}
